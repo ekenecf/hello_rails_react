@@ -1,4 +1,3 @@
-// import axios from 'axios';
 import {setLoadingData, setData, setError} from './Actions';
 
 const GetData = () => (dispatch) => {

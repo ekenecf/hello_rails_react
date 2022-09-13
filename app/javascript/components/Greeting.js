@@ -6,7 +6,7 @@ export default function Greeting() {
   const { messages, loading, error } = useSelector((state) => state.DataReducer);
   const dispatch = useDispatch();
 
-  console.log("Random last object", messages)
+//   console.log("Random last object", messages)
 
 useEffect(() => {
   dispatch(GetData());
